@@ -27,14 +27,14 @@ body {
   align-items: end;
   .storage-usage_sidebar {
     height: 250px;
-    border-radius: 10px 50% 10px 10px;
+    border-radius: 10px 35% 10px 10px;
     width: 40%;
     background: $DarkBlue;
-    padding: 50px;
+    padding: 55px;
     align-items: start;
     justify-content: space-between;
     .storage-usage_icons {
-      gap: 10px;
+      gap: 20px;
     }
     .storage-usage_icon {
       display: flex;

@@ -21,15 +21,15 @@ body {
 }
 .main .storage-usage_sidebar {
   height: 250px;
-  border-radius: 10px 50% 10px 10px;
+  border-radius: 10px 35% 10px 10px;
   width: 40%;
   background: hsl(228, 56%, 26%);
-  padding: 50px;
+  padding: 55px;
   align-items: start;
   justify-content: space-between;
 }
 .main .storage-usage_sidebar .storage-usage_icons {
-  gap: 10px;
+  gap: 20px;
 }
 .main .storage-usage_sidebar .storage-usage_icon {
   display: flex;
