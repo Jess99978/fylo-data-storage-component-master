@@ -1,0 +1,64 @@
+$primary-gradient: linear-gradient(
+  to right,
+  hsl(6, 100%, 80%),
+  hsl(335, 100%, 65%)
+);
+$PaleBlue: hsl(243, 100%, 93%);
+$GrayishBlue: hsl(229, 7%, 55%);
+$DarkBlue: hsl(228, 56%, 26%);
+$VeryDarkBlue: hsl(229, 57%, 11%);
+
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+.wrapper {
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 1440px;
+}
+.main {
+  width: 80%;
+  gap: 50px;
+  align-items: end;
+  .storage-usage_sidebar {
+    height: 250px;
+    border-radius: 10px 50% 10px 10px;
+    width: 40%;
+    background: $DarkBlue;
+    padding: 50px;
+    align-items: start;
+    justify-content: space-between;
+    .storage-usage_icons {
+      gap: 10px;
+    }
+    .storage-usage_icon {
+      display: flex;
+      width: 50px;
+      height: 50px;
+      border-radius: 5px;
+      background: $VeryDarkBlue;
+      background-repeat: no-repeat;
+      background-position: center center;
+    }
+    .icon_document {
+      background-image: url(../images/icon-document.svg);
+    }
+    .icon_folder {
+        background-image: url(../images/icon-folder.svg);
+      }
+      .icon_upload {
+        background-image: url(../images/icon-upload.svg);
+      }
+  }
+  .storage-usage_main {
+    height: 200px;
+    width: 60%;
+    border-radius: 10px;
+    background: $DarkBlue;
+  }
+}

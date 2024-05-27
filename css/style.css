@@ -1,0 +1,58 @@
+body {
+  font-family: "Raleway", sans-serif;
+  font-size: 14px;
+}
+
+.wrapper {
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/bg-desktop.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 1440px;
+}
+
+.main {
+  width: 80%;
+  gap: 50px;
+  align-items: end;
+}
+.main .storage-usage_sidebar {
+  height: 250px;
+  border-radius: 5px 30% 5px 5px;
+  width: 40%;
+  background: hsl(228, 56%, 26%);
+  padding: 50px;
+  align-items: start;
+  justify-content: space-between;
+}
+.main .storage-usage_sidebar .storage-usage_icons {
+  gap: 10px;
+}
+.main .storage-usage_sidebar .storage-usage_icon {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  border-radius: 5px;
+  background: hsl(229, 57%, 11%);
+  background-repeat: no-repeat;
+  background-position: center center;
+}
+.main .storage-usage_sidebar .icon_document {
+  background-image: url(../images/icon-document.svg);
+}
+.main .storage-usage_sidebar .icon_folder {
+  background-image: url(../images/icon-folder.svg);
+}
+.main .storage-usage_sidebar .icon_upload {
+  background-image: url(../images/icon-upload.svg);
+}
+.main .storage-usage_main {
+  height: 200px;
+  width: 60%;
+  border-radius: 5px;
+  background: hsl(228, 56%, 26%);
+}
+
+/*# sourceMappingURL=style.css.map */
