@@ -38,18 +38,23 @@
           <div class="storage-usage_icon icon_upload"></div>
         </div>
       </div>
-      <div class="storage-usage_main position-ralative">
+      <div class="storage-usage_main position-relative d-flex flex-column">
         <div
           class="storage-usage_remaining position-absolute d-flex justify-content-center"
         >
-          <div class="storage-usage_remaining-text">
-            <span>185</span> GB LEFT
+          <div class="storage-usage_remaining-text d-flex">
+            <span>185</span>&emsp14; GB LEFT
           </div>
+          <div class="triangle position-absolute"></div>
         </div>
-        <p>You've used <span>815GB</span> of your storage</p>
-        <div class="storage-usage_progress">
-          <div class="storage-usage_progressbar d-flex flex-column"></div>
-          <div class="progressbar-text">
+        <p class="storage-usage_info">You've used <span>815 GB</span> of your storage</p>
+        <div class="storage-usage_progress d-flex flex-column">
+          <div class="storage-usage_progressbar d-flex flex-column">
+            <div class="storage-usage_progressbar-used  position-relative d-flex">
+              <div class="storage-usage_progressbar-ball position-absolute"></div>
+            </div>
+          </div>
+          <div class="progressbar-text d-flex">
             <span>0 GB</span>
             <span>1000 GB</span>
           </div>

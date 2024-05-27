@@ -1,3 +1,4 @@
+@charset "UTF-8";
 body {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
@@ -20,7 +21,7 @@ body {
 }
 .main .storage-usage_sidebar {
   height: 250px;
-  border-radius: 5px 30% 5px 5px;
+  border-radius: 10px 50% 10px 10px;
   width: 40%;
   background: hsl(228, 56%, 26%);
   padding: 50px;
@@ -51,8 +52,77 @@ body {
 .main .storage-usage_main {
   height: 200px;
   width: 60%;
-  border-radius: 5px;
+  border-radius: 10px;
   background: hsl(228, 56%, 26%);
+  padding: 50px;
+  gap: 20px;
+}
+.main .storage-usage_main .storage-usage_remaining {
+  width: 180px;
+  height: 80px;
+  border-radius: 15px;
+  background: #fff;
+  right: 50px;
+  top: -60px;
+  z-index: 100;
+}
+.main .storage-usage_main .storage-usage_remaining .triangle {
+  width: 0;
+  height: 0;
+  right: 0;
+  top: 40px;
+  border-left: 40px solid transparent; /* 左邊的邊框為透明 */
+  border-top: 60px solid #fff;
+  z-index: 50;
+}
+.main .storage-usage_main .storage-usage_remaining .storage-usage_remaining-text {
+  justify-content: center;
+  align-items: center;
+  color: hsl(229, 7%, 55%);
+  font-weight: 500;
+  z-index: 100;
+}
+.main .storage-usage_main .storage-usage_remaining .storage-usage_remaining-text span {
+  font-size: 36px;
+  color: hsl(229, 57%, 11%);
+  font-weight: 700;
+}
+.main .storage-usage_main .storage-usage_info {
+  color: hsl(229, 7%, 55%);
+}
+.main .storage-usage_main .storage-usage_info span {
+  color: hsl(243, 100%, 93%);
+  font-weight: 700;
+}
+.main .storage-usage_main .storage-usage_progress {
+  gap: 10px;
+  align-items: center;
+}
+.main .storage-usage_main .storage-usage_progress .storage-usage_progressbar {
+  width: 98%;
+  height: 18px;
+  background: hsl(229, 57%, 11%);
+  border-radius: 9px;
+}
+.main .storage-usage_main .storage-usage_progress .storage-usage_progressbar .storage-usage_progressbar-used {
+  width: 81.5%;
+  height: 100%;
+  background: linear-gradient(to right, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  border-radius: 9px 9px;
+  align-items: center;
+}
+.main .storage-usage_main .storage-usage_progress .storage-usage_progressbar .storage-usage_progressbar-ball {
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #fff;
+  right: 3px;
+}
+.main .storage-usage_main .storage-usage_progress .progressbar-text {
+  color: hsl(243, 100%, 93%);
+  font-weight: 700;
+  width: 100%;
+  justify-content: space-between;
 }
 
 /*# sourceMappingURL=style.css.map */
