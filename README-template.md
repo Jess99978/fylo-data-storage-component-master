@@ -1,110 +1,59 @@
-# Frontend Mentor - Fylo data storage component solution
+# Responsive Web Design Project - Fylo Data Storage Component
+## 目錄
+- [總覽](#overview)
+  - [專案介紹](#專案介紹)
+  - [成品預覽](#畫面預覽)
+  - [線上預覽](#線上預覽)
+- [製作過程](#製作過程)
+  - [使用技術](#使用技術)
+  - [我學到的內容](#我學到的內容)
+  - [未來要持續精進的部分](#未來要持續精進的部分)
+  - [實用資源](#實用資源)
 
-This is a solution to the [Fylo data storage component challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/fylo-data-storage-component-1dZPRbV5n). Frontend Mentor challenges help you improve your coding skills by building realistic projects. 
+## 總覽
 
-## Table of contents
+### 專案介紹
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+這個專案有兩種排版（電腦版及手機版），請使用瀏覽器的檢查功能，調整螢幕寬度來檢視這兩種版型
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
+- 電腦版（1440 px）
+- 手機版（375px）
+#### [線上預覽](https://jess99978.github.io/fylo-data-storage-component-master/)
+### 畫面預覽
 
-## Overview
+<div style="display: flex; flex-direction: row;">
+  <div style="flex: 1; padding: 10px;">
+    <p>電腦版預覽圖</p>
+    <img src="preview-web.png" alt="Desktop Screenshot" style="max-width: 100%;">
+  </div>
+  <div style="flex: 1; padding: 10px;">
+    <p>手機版預覽圖</p>
+    <img src="preview-mobile.png" alt="Mobile Screenshot" style="max-width: 100%;">
+  </div>
+</div>
 
-### The challenge
 
-Users should be able to:
 
-- View the optimal layout for the site depending on their device's screen size
 
-### Screenshot
+## 製作過程
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
-
-### Links
-
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
-
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
+### 使用技術
+- 語意化的 HTML5 標籤
+- SCSS 變數、巢狀結構、MIXINS
 - Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- Bootstrap
+- RWD
+- Git 版本控制
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### 我學到的內容
+- HTML 中插入空白的方式與其差異
+- [用 css 繪製三角型](https://codepen.io/Jess-the-solid/pen/GRaNvvG)
+- SCSS 的 Variables、Nesting、mixin
+- 將專案放到 Github Pages，並撰寫 README.md
+### 未來要持續精進的部分
+- SCSS 的其他進階語法（mixin 中加入變數、extend、functions）
+- Bootstrap 的 grid 製作流動式排版
 
-### What I learned
+### 實用資源
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
-
-## Author
-
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
-
-## Acknowledgments
-
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- [SCSS 教學影片](https://www.youtube.com/watch?v=nu5mdN2JIwM) - 這部 YT 影片內容包括 SCSS 的基本介紹、SCSS/CSS 的轉換，以及實際的操作範例，相當適合 SCSS 初學者。
