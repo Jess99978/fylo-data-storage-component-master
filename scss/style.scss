@@ -8,13 +8,18 @@ $GrayishBlue: hsl(229, 7%, 55%);
 $DarkBlue: hsl(228, 56%, 26%);
 $VeryDarkBlue: hsl(229, 57%, 11%);
 
+@mixin flex-center{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
 body {
   font-family: "Raleway", sans-serif;
   font-size: 14px;
 }
 .wrapper {
-  justify-content: center;
-  align-items: center;
+  @include flex-center;
   background-image: url(../images/bg-desktop.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,8 +110,7 @@ body {
               }
           }
           .storage-usage_remaining-text{
-            justify-content: center;
-            align-items: center;
+            @include flex-center;
             color: $GrayishBlue;
             font-weight: 500;
             z-index: 100;
